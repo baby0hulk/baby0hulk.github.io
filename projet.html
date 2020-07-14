@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>presonal profile</title>
+    <link rel="stylesheet" type="test/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<header>
+    <nav>
+        <div class="logo">
+            <h1 class="animated infinite heartBeat">Hello</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">project</a>
+            <a href="https://codepen.io/baby0hulk/pen/WNrpWvG">about</a>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <h3>Welcome to my presonal website</h3>
+            <h1><span class="change"></span></h1>
+            <p>How are you I am Rohit</p>
+        </section>
+    </main>
+</header>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        header {
+            width: 100%;
+            height: 100vh;
+            background-image: url("https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        nav {
+            width: 100%;
+            height: 15vh;
+            background: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav .logo {
+            width: 25px;
+            text-align: center;
+            font-size: 30px;
+            padding: 25px;
+        }
+        
+        nav .menu {
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        nav .menu a {
+            width: 25%;
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav .menu a:first-child {
+            color: #00b894;
+        }
+        
+        main {
+            width: 100%;
+            height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: yellow;
+            font-size: 50px;
+        }
+        
+        section h3 {
+            font-size: 40px;
+            font-weight: 200;
+            letter-spacing: 3px;
+            text-shadow: 1px 1px 2px black;
+        }
+        
+        section h1 {
+            margin: 30px 0 20px 0;
+            font-size: 55px;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px black;
+            text-transform: uppercase;
+        }
+        
+        section p {
+            margin: 30px 0 20px 0;
+            font-size: 55px;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px black;
+            text-transform: uppercase;
+        }
+        
+        .change:after {
+            content: '';
+            animation: changetext 7s infinite linear;
+            color: lightblue;
+        }
+        
+        @keyframes changetext {
+            0% {
+                content: "Hello I am Rohit";
+            }
+            25% {
+                content: "Welcome To my website";
+            }
+            50% {
+                content: "Show My Work";
+            }
+            75% {
+                content: "Programing is very Easy";
+            }
+            100% {
+                content: "But Well Try All The Best"
+            }
+        }
+    </style>
+
+</body>

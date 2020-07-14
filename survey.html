@@ -1,0 +1,65 @@
+<body>
+    <h1 id="title">Survey from</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <from id="survey-form">
+        <div>
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="Your Full Name">
+        </div>
+        <div>
+            <label for="email" id="email-label">Email:</label>
+            <input id="email" type="email" required placeholder="Enter your email" </div>
+            <div>
+                <label for="number" id="number-label">age:</label>
+                <input id="number" type="number" min=18 max=40 required placeholder="Enter age">
+            </div>
+            <div>
+                <label id="dropdown">Do you like FCC?</label>
+                <select>
+          <option value="Yes">yes</option>
+          <option value="No">no</option>
+        </select>
+            </div>
+            <div>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <input type="radio">
+                <label>Definitely</label>
+                <input type="radio">
+                <label>Maybe</label>
+                <input type="radio">
+                <label>Not sure</label>
+            </div>
+            <div>
+
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <input type="checkbox" value="">challenge</input><br>
+                <input type="checkbox" value="">project</input><br>
+                <input type="checkbox" value="">open source</input><br>
+            </div>
+            <div id="textarea">
+                <p>Enter Your comments here....
+                    <p>
+                        <textarea rows="4" columns="7" placeholder="Enter your text...."></textarea>
+            </div>
+            <div id="submit">
+                <input type="Submit">
+            </div>
+    </from>
+</body>
+<style>
+    body {
+        text-align: start;
+        color: green;
+        background-color: black;
+    }
+    
+    div {
+        text-align: start;
+        color: red;
+    }
+    
+    input {
+        margin-bottom: 20px;
+        color: lightblue;
+    }
+</style>
